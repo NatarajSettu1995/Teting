@@ -3,7 +3,7 @@
 public class Sample {
 
 	public static void main(String[] args) {
-		String Words="Wellcome";
+		String Words="Wellcomes";
 		String Word=Words.toLowerCase();
 		char[] array=Word.toCharArray();
 		int Wcount=0;
