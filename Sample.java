@@ -3,7 +3,7 @@
 public class Sample {
 
 	public static void main(String[] args) {
-		String Words="Wellcomes";
+		String Words="Wellcome";
 		String Word=Words.toLowerCase();
 		char[] array=Word.toCharArray();
 		int Wcount=0;
@@ -29,6 +29,16 @@ public class Sample {
 		
 		System.out.println("Wovel count="+Wcount+"="+w);
 		System.out.println("Consonent count="+Ccount+"="+c);
+
+for(int i=0;i<5;i++)
+{
+for(int j=0;j<=i;j++)
+{
+System.out.print("*"+" ");
+}
+System.out.println("");
+}
+
 
 	}
 
